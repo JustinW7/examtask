@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav{
+  font-weight: bold;
+  text-align:left;
+}
+
+.round-button {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 20px; /* Use half of the height to make it round */
+  background-color:red; /* Set the background color */
+  color: #fff; /* Set the text color */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; /* Set the font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+.round-button1{
+  background-color:white;
+  color:black;
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 20px; /* Use half of the height to make it round */
+ /* Set the background color */
+  color: #fff; /* Set the text color */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; /* Set the font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.image-container {
+  position: relative;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.image-container img {
+
+  width: 550%;
+  height: 100%;
+}
+
+
+/* grey  */
+.grey-overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 550%;
+  height: 248%;
+
+ color:white;
+  
+  background-color: rgba(8, 0, 0, 0.5); 
+  padding: 20px; /* Add padding to provide some space around the text */
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 145vh;/* Set your desired overlay color with alpha transparency */
+}
+
+.centered-text0 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.centered-text0 a{
+  background-color:white;
+  color:black;
+}
+
+.round-button1:hover{
+background-color:rgb(48, 5, 5);
+}
+/* end of grey  */
+
+.red-section {
+  background-color: red;
+  padding: 20px; /* Add padding to provide some space around the text */
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* Set the height of the section to the viewport height */
+}
+
+.centered-text {
+  color: white;
+  font-size: 24px;
+ 
+}
+.centered-text a{
+  background-color:white;
+  color:black;
+}
+
+/* white section  */
+.white-section {
+  background-color:white;
+  padding: 20px; /* Add padding to provide some space around the text */
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the section to the viewport height */
+}
+
+.centered-text2 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.centered-text2 a{
+  background-color:white;
+  font-size: 34px;
+  color:black;
+}
+.centered-text2 p{
+
+font-size:23px;
+}
+.centered-text2 li
+{
+font-size:16px;
+}
+
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.horizontal-list {
+  display: flex; /* Use flexbox to create a horizontal layout */
+}
+
+
+
+/* Optional: Style for better visibility */
+.horizontal-list li a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  font-size: 36px;
+  border-radius: 4px;
+
+}
+
+.black-section {
+  background-color:black;
+  padding: 20px; /* Add padding to provide some space around the text */
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the section to the viewport height */
+}
+
+.centered-text3 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.centered-text3 a{
+  background-color:white;
+  color:black;
+}
+.white-section2 {
+  background-color:white;
+  padding: 20px; /* Add padding to provide some space around the text */
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 130vh; /* Set the height of the section to the viewport height */
+}
+
+
+.mb-3-b a{
+  background-color: red;
+}
+
+
+
+.white-section2 p{
+  font-size:23px;
+}
+.round-buttonl{
+  background-color:red;
+  color:black;
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 20px; /* Use half of the height to make it round */
+ /* Set the background color */
+  color: #fff; /* Set the text color */
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px; /* Set the font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.centered-text2{
+  text-size:10px;
+}
+.red-overlay:hover {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 550%;
+  height: 248%;
+
+ color:white;
+  
+  background-color: rgba(8, 0, 0, 0.5); 
+  padding: 20px; /* Add padding to provide some space around the text */
+  text-align: center; /* Center text horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 145vh;
+}
